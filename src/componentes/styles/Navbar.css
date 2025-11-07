@@ -1,0 +1,37 @@
+.akatsuki-navbar {
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.4);
+  border-bottom: 2px solid #e50914;
+}
+
+.text-akatsuki {
+  color: #e50914;
+  text-shadow: 0 0 8px rgba(229, 9, 20, 0.6);
+}
+
+.uchiha-logo-nav {
+  width: 28px;
+  height: 28px;
+  filter: drop-shadow(0 0 6px rgba(229, 9, 20, 0.7));
+}
+
+.nav-link {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e50914 !important;
+  text-shadow: 0 0 10px rgba(229, 9, 20, 0.7);
+}
+
+.active-link {
+  color: #e50914 !important;
+  text-shadow: 0 0 12px rgba(229, 9, 20, 0.8);
+}
+
+.navbar-toggler {
+  border-color: #e50914;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229, 9, 20, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

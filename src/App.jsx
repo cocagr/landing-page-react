@@ -1,10 +1,11 @@
 import Card from './componentes/Card.jsx'
+import CardList from "./componentes/CardList";
 import Navbar from './componentes/Navbar.jsx'
 import Jumbotron from './componentes/Jumbotron'
 import Footer from './componentes/Footer.jsx'
 
 function App() {
-  return(
+  return (
     <div className="page">
       <header className="head">
         <Navbar />
@@ -13,8 +14,8 @@ function App() {
         <div className="jumbotron">
           <Jumbotron />
         </div>
-          <Card />
-        </div>
+        <CardList />
+      </div>
       <footer className="foot">
         <Footer />
       </footer>

@@ -1,0 +1,47 @@
+.jumbotron-akatsuki {
+  position: relative;
+  background-image: url("https://e0.pxfuel.com/wallpapers/21/835/desktop-wallpaper-konoha-logo-konohagakure.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  overflow: hidden;
+}
+
+.jumbotron-overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  /* Capa oscura para legibilidad */
+  width: 100%;
+  height: 100%;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-akatsuki {
+  color: #e50914;
+  text-shadow: 0 0 10px rgba(229, 9, 20, 0.6);
+}
+
+.akatsuki-btn {
+  background-color: #000;
+  color: #e50914;
+  border: 2px solid #e50914;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(229, 9, 20, 0.5);
+}
+
+.akatsuki-btn:hover {
+  background-color: #e50914;
+  color: #000;
+  border-color: #000;
+  box-shadow: 0 0 20px 5px rgba(229, 9, 20, 0.7);
+  transform: scale(1.05);
+}
